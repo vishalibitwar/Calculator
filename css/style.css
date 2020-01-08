@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  font-size: 1.3rem;
+  margin: 2px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: 'Tomorrow', sans-serif;
+}
+
+button {
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#textview {
+  margin: 0.5rem 0rem;
+  padding: 1rem;
+  max-width: inherit;
+  border-radius: 5px;
+  border: none;
+  max-width: 94%;
+  font-size: 1.6rem;
+  background-color: whitesmoke;
+  font-size: 1.4rem;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-align: right;
+  font-family: 'Tomorrow', sans-serif;
+
+}
+
+.container {
+  padding: 1.5rem;
+  width: 285px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  border: solid 0.3px #333;
+}
+
+table {
+  align-items: center;
+}
